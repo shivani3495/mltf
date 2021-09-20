@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+ - TargetService:
+     Type: AWS::ECS::Service
+     Properties:
+       TaskDefinition: arn:aws:ecs:ap-south-1:425715685170:task-definition/taskdefination:1
+       LoadBalancerInfo:
+         ContainerName: "container"
+         ContainerPort: 5000
