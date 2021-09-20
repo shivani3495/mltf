@@ -1,0 +1,6 @@
+[
+    {
+      "name": "container",
+      "imageUri": "425715685170.dkr.ecr.ap-south-1.amazonaws.com/mldep:latest"
+    }
+  ]
